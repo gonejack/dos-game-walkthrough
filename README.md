@@ -1,14 +1,13 @@
-# dos-game-walkthrough
+## DOS老游戏攻略
 
-原始文件为 **DOS老游戏攻略.chm**
+来自[绝版游戏保护工程](https://github.com/skywind3000/preserve-cd)
 
-来源于 https://github.com/skywind3000/preserve-cd
+原始文件存储在115网盘上，辛苦下载到。因 115 网盘可信度不高，故备份到此。
 
-原始文件为chm格式，存储在115网盘上，通过困难的下载，用 Windows 11 虚拟机试了下发现无法打开。 遂在 MacOS 上执行了解压，然后上传到此作为备份。
+[Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader) 可以在 Windows 11 上阅读此 chm 文件
 
-mht 文件还是比较流行的，直接用 Google Chrome 就能打开。
-
+MacOS 用户可使用命令行解压，再使用 Google Chrome 阅读 .mht 文件。
 ```shell
 brew install chmlib
-extract_chmLib DOS老游戏攻略.CHM
+extract_chmLib DOS老游戏攻略.chm
 ```
